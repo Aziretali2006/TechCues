@@ -1,0 +1,142 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", serif;
+}
+
+.header_back {
+  background: #111131;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #ABABFA;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.header_back a {
+  cursor: pointer;
+}
+
+.container {
+  width: 1350px;
+  margin: 0 auto;
+}
+
+.navbar_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 84px;
+  margin: 0 auto;
+}
+
+.navbar_block .nav_menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+  color: #413E52;
+}
+
+.navbar_actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar_actions button {
+  width: 130px;
+  height: 44px;
+  color: white;
+  background: #5C5CFF;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 0;
+  transition: 0.5s;
+}
+
+.navbar_actions button:hover {
+  box-shadow: 0 0 10px blue;
+}
+
+.main {
+  padding-top: 100px;
+  box-shadow: 10px 10px 10px #cacaca inset;
+  position: relative;
+}
+
+.banner_blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 0;
+  position: relative;
+  z-index: 2;
+  overflow: hidden; 
+  background-color: white;
+}
+
+.banner_blocks .line {
+  width: 4px;
+  height: 430px;
+  background-color: #5C5CFF;
+}
+
+.drop_right {
+  position: absolute;
+  top: 50px;
+  right: 165px; 
+  z-index: 1;
+  width: 500px; 
+  height: auto;
+}
+
+.drop_down_rignt {
+  position: absolute;
+  left: 215px;
+  top: 40%;
+  z-index: 0;
+  width: 500px;
+  height: auto;
+}
+
+.banner_info {
+  width: 460px;
+  height: 430px;
+}
+
+.banner_info p{
+  font-size: 14px;
+  color: #5C5CFF;
+  font-weight: 400;
+}
+
+.banner_info h2 {
+  font-size: 42px;
+  font-weight: 400;
+  color: #413E52;
+  margin: 30px 0;
+}
+
+.banner_info article {
+  font-size: 14px;
+  font-weight: 400;
+  color: #413E52;
+}
+
+.banner_info .date {
+  color: #868297;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 10px;
+}
