@@ -140,3 +140,83 @@
   font-weight: 400;
   margin-top: 10px;
 }
+
+.articles_block {
+  margin-top: 200px;
+}
+
+.upper_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  border-bottom: 2px solid #868297;
+  height: 70px;
+}
+
+.upper_block_left p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #413E52;
+  text-transform: uppercase;
+}
+
+.upper_block_right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.upper_block_right span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #413E52;
+}
+
+.card_blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.card_block {
+  width: 370px;
+  height: 410px;
+  border: 1px solid #868297;
+  margin-top: 35px;
+  box-shadow: 10px 0 10px gray;
+}
+
+.card_block img {
+  width: 370px;
+  height: 205px;
+}
+
+.card_block_info {
+  padding: 32px 24px;
+}
+
+.card_block_info h3 {
+  color: #5C5CFF;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.card_block_info p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #868297;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.card_block_info article {
+  font-size: 19px;
+  font-weight: 400;
+  color: #413E52;
+  width: 240px;
+}
